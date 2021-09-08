@@ -120,7 +120,7 @@ call plug#end()
 " ======================================================================================
 
 " Double j to Normal Mode
-inoremap jj <Esc>
+inoremap jk <Esc>
 
 " Move between windows
 map <C-j> <C-W>j
