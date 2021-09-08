@@ -8,6 +8,6 @@ let g:floaterm_width = 0.8
 let g:floaterm_height = 0.8
 
 " Set floaterm window's background to black
-hi Floaterm guibg=#8a8a8a
+hi Floaterm guibg=#fafafa
 " Set floating window border line color to red, and background to white
-hi FloatermBorder guifg=#444
+hi FloatermBorder guifg=#8a8a8a

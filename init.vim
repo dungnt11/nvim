@@ -99,9 +99,6 @@ Plug 'voldikss/vim-floaterm'
 " IdentLine
 Plug 'Yggdroot/indentLine'
 
-" Auto close tag
-Plug 'Raimondi/delimitMate'
-
 " Linting
 Plug 'dense-analysis/ale'
 
@@ -169,8 +166,7 @@ set autoread
 set autowrite
 
 "Tự động indent
-set autoindent
-set smartindent
+set autoindent noexpandtab tabstop=2 shiftwidth=2
 
 " ======================================================================================
 " General Settings
