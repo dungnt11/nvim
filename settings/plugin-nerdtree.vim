@@ -10,3 +10,13 @@ let g:NERDTreeWinPos = "right"
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.pyc,*.db,*.sqlite
 nnoremap <C-F> :NERDTreeFind<CR>
 nnoremap <C-n> :NERDTreeToggle<CR>
+
+function MyNerdToggle()
+    if &filetype == 'nerdtree'
+        :NERDTreeToggle
+    else
+        :NERDTreeFind
+    endif
+endfunction
+
+nnoremap <leader>e :call MyNerdToggle()<CR>

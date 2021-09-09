@@ -35,7 +35,6 @@ Plug 'jistr/vim-nerdtree-tabs'
 Plug 'ryanoasis/vim-devicons'
 " Color cho icon cua vim-devicons
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
-
 " Theme
 Plug 'sonph/onehalf', { 'rtp': 'vim' }
 
@@ -71,7 +70,6 @@ Plug 'cakebaker/scss-syntax.vim'
 
 " Navbar ( Tab bar like VSCode )
 Plug 'romgrk/barbar.nvim'
-
 " Vim Airline ( Bottom bar )
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
@@ -92,7 +90,7 @@ Plug 'easymotion/vim-easymotion'
 Plug 'airblade/vim-gitgutter'
 Plug 'apzelos/blamer.nvim'
 Plug 'Xuyuanp/nerdtree-git-plugin'
-
+Plug 'jreybert/vimagit'
 " Terminal
 Plug 'voldikss/vim-floaterm'
 
@@ -208,6 +206,9 @@ set foldmethod=indent
 set foldnestmax=10
 set nofoldenable
 set foldlevel=2
+
+" Git
+nnoremap <leader>gs :Magit<CR>
 
 " =============== Personalized Settings =============
 for fpath in split(globpath('~/.config/nvim/settings', '*.vim'), '\n')

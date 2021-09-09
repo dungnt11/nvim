@@ -1,7 +1,5 @@
-
 {
   "emmet.includeLanguages": {
-    "typescriptreact": "html",
     "react": "html"
   },
   "suggest.echodocSupport": true,
