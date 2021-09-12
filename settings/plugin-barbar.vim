@@ -30,3 +30,11 @@ let bufferline.animation = v:false
 let bufferline.auto_hide = v:true
 " Không dùng icon
 let bufferline.icons = v:false
+
+" Custom icon
+" Configure icons on the bufferline.
+let bufferline.icon_separator_active = ''
+let bufferline.icon_separator_inactive = ''
+let bufferline.icon_close_tab = '✘'
+let bufferline.icon_close_tab_modified = '⦿'
+let bufferline.icon_pinned = '♥'
